@@ -1,59 +1,110 @@
-body{
+body {
 	text-align: center;
-	font-family: arial;
+	font-family: Courier;
 	color: white;
+<<<<<<< Updated upstream
 	text-shadow: 2px 2px 3px rgb(200 200 200);
-	background-image: url(imagens/abstract-space.png); 
+	background-image: url(imagens/cloud.jpg); 
+=======
+	text-shadow: 2px 2px 3px #c3c4d6; /*rgb(200 200 200)*/
+	background-image: url(imagens/sharon-mccutcheon.jpg);
+>>>>>>> Stashed changes
 	background-size: cover;
 	/*background: url(imagens/abstract-space.png) no-repeat center center fixed 
 	|--> outra forma de fazer o fundo;*/
+	padding: 10px;
 }
-h1{
 
+h1 {
+	margin-top: 20px;
 	font-size: 60px;
-	padding-top: 200px;
+	text-shadow: 2px 2px 3px #FE7D6A;
+	/*margin-top: 50px;*/
 }
-p{
-	font-size: 22px;
+
+h2 {
+	font-size: 25px;
+	text-shadow: 1px 1px 2px rgb(20 20 20);
 }
-.box1{
-	margin-bottom: 100px; 
+
+h3 {
+	padding: 0;
+	margin:  0;
 }
-.botao{
-	text-decoration: none;
-	background-color: rgb(200 200 200);
+
+.content-container {
+	margin-top: 30px;
+}
+
+.btn {
+	text-align: right;
+	margin-top: 0;
+	padding: 0;
+}
+
+.button {
+	font-size: 18px;
 	color: white;
-	font-size: 22px;
-	padding: 10px 15px 10px 15px;
+	background-color: #c3c4d6;
+	text-decoration: none;
+	border: 1px solid white;
 	border-radius: 5px;
+	padding: 10px 15px 10px 15px;	
 }
-.lista{
-	font-size: 22px;
+
+.button:hover {
+	background-color: floralwhite;
+	color: #FE7D6A;
+	font-weight: bold;
+	border: 2px solid #FE7D6A;
+	text-shadow: none;
+}
+
+.list {
+	font-size: 18px;
 	list-style: none;
-	padding-left: 0;
-	margin-bottom: 150px;
-	margin-top: 100px;
+	width: 60%;
+	margin: 50px auto;	
+	text-align: left;
+	color: white;
+	text-shadow: 1px 1px 2px rgb(20 20 20);
 }
-.bac{
+
+.fas {
 	color: white;
 	padding-right: 10px;
 }
-.europha a{
+
+.github a {
+	color: #FE7D6A;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.europha a {
 	color: white;
 	text-decoration: none;
 }
-.box2 a{
+
+.europha a:hover {
+	color: #FE7D6A;
+	text-decoration: underline;
+}
+
+.social-buttons-container {
+	margin: 20px 0;
+}
+
+.social-buttons-container a {
 	font-size: 40px;
 	color: white;
-	letter-spacing: 10px;
+	padding-right: 10px;
 }
-.botao:hover{
-	background-color: rgb(50 50 50);
-	color: rgb(204 0 0);
-	border: 2px solid rgb(204 0 0);
-	text-shadow: none;
+
+.social-buttons-container a:hover {
+	color: #FE7D6A;
 }
-.europha a:hover{
-	color: rgb(204 0 0);
-	text-decoration: underline;
+
+.unsplash {
+	font-size: 12px;
 }
